@@ -1,0 +1,297 @@
+ .os 
+ { 
+   background: Black;
+   color :#FFF;
+   margin-bottom : 20px;
+   padding : 15px
+ }
+ .warning
+ {
+   background: Red;
+   color :#FFF;
+   margin-bottom : 20px;
+   padding : 15px
+ }
+ /*navbar*/
+ .test
+ {
+  height: 200px ;
+  background: #F6F6F6;
+  line-height: 300px;
+
+ }
+ body
+ {
+  padding-top: 80px;
+  background: url("../../images/rate.jpg")no-repeat center center fixed;
+  background-size: cover;
+
+ }
+
+
+
+/***************start overriding bootstrap*******************/
+ /*active link(home)*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+  color : white;
+  background: #2E86C1;
+ }
+ 
+  .logo{
+ height: 50px;
+ width: 166px;
+ padding-top: 0;
+ margin-top: 0;
+ margin-left: -105px;
+ }
+
+.nav-font{
+  font-family: -apple-system,
+              BlinkMacSystemFont,
+              "Segoe UI","Roboto",
+              "Oxygen","Cantarell",
+              "Open Sans","Helvetica Neue",
+              "Ubuntu",sans-serif;
+
+  
+}
+ .dropdown-menu{
+    background-color: #333;
+    border-top: 3px solid #2E86C1;
+    padding: 6px 20px;
+    width: 50px;
+    
+}
+
+.dropdown-menu li a{
+    color: #FFF;
+    -webkit-transition: padding 0.7s ease;
+    -moz-transition: padding 0.7s ease;
+    -o-transition: padding 0.7s ease;
+    transition: padding 0.7s ease;
+    
+}
+
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus{
+    background-color: #2E86C1;
+    color: #FFF;
+    padding-left: 25px;
+}
+
+.dropdown-menu .divider{
+    background-color:#2E86C1;
+}
+
+.navbar-right .dropdown-menu{
+    left: 0;
+    right: auto;
+}
+
+ .navbar-brand
+ {
+  
+  padding-top: 20px;
+  font-size: 30px;
+ }
+ .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img
+ {
+    max-width:30%;
+ }
+ .carousel-caption
+ {
+    color:black;
+ }
+ .carousel-indicators li
+ {
+    border:3px solid red;
+ }
+ .carousel-indicators .active
+ {
+    border:3px solid yellow;
+
+ }
+ 
+ .navbar-nav > li > a{
+  line-height: 1.5;
+ }
+ /*********end overriding bootstrap**********/
+
+
+
+
+
+/* Start section footer */
+.footer{
+    background: #222;
+    color: #AAA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+
+}
+
+.footer h2{
+    color: #0895D1;
+    margin: 30px 0 20px;
+    letter-spacing: 1px;
+}
+
+.footer .three-columns{
+    overflow: hidden;    
+}
+
+.footer .three-columns li{
+    width: 15%;
+    float: left;
+    padding: 5px 0
+}
+
+.footer .social{
+    overflow: hidden;
+    
+}
+
+.footer .social li{
+    float: left;
+    margin-top: 1px;
+    padding-top: 1px;
+    margin-right: 5px;
+    opacity: 0.7;
+}
+
+.footer .social li:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.footer_links{
+ text-decoration: none;
+ color: #FFF;
+}
+
+.footer_links:hover{
+ text-decoration: none;
+ color: #FFF;
+}
+/* End section footer */
+
+.post_box{
+  background: rgba(3,3,3,.4);
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 15px;
+  
+}
+
+.post_img{
+  max-width:350px;
+  max-height: 450px;
+  margin: auto;
+  padding:20px;
+}
+
+.title{
+  font-weight: bold;
+  color: #337ab7;
+}
+
+.area_class{
+  display: inline-block;
+}
+
+.post_content{
+  padding: 20px;
+}
+
+h3{
+  font-family: serif;
+}
+
+ .update_btn{
+  margin-top: 15px;
+ }
+
+ .buttons{
+  padding-top: 30%;
+ }
+
+ .post_head{
+  font-weight: bold;
+ }
+
+ .delbut{
+  border: #FFF 1px solid;
+  border-radius: 30px;
+  color: #FFF;
+  width: 148.06px;
+  -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+ }
+
+ .delbut:hover {
+  background-color: #d9534f;
+  color: #FFF;
+  border: #d9534f 1px solid;
+ }
+
+ .updbut{
+  border: #FFF 1px solid;
+  border-radius: 30px;
+  color: #FFF;
+  width: 148.08px;
+  -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+ }
+
+ .updbut:hover {
+  background-color: #337ab7;
+  color: #FFF;
+  border: #337ab7 1px solid;
+ }
+
+ .profilebut{
+  border: #337ab7 1px solid;
+  border-radius: 30px;
+  color: #337ab7;
+  width: 148.08px;
+  -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+ }
+
+ .profilebut:hover {
+  background-color: #337ab7;
+  color: #FFF;
+  border: #337ab7 1px solid;
+ }
+
+ .markbut{
+  border: #FFF 1px solid;
+  border-radius: 30px;
+  color: #FFF;
+  -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+ }
+
+ .markbut:hover {
+  background-color: #5cb85c;
+  color: #FFF;
+  border: #5cb85c 1px solid;
+ }
+
+ .user_class{
+  font-weight: bold;
+  color: #337ab7;
+ }

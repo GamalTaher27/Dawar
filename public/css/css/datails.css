@@ -1,0 +1,238 @@
+ .os 
+ { 
+   background: Black;
+   color :#FFF;
+   margin-bottom : 20px;
+   padding : 15px
+ }
+ .warning
+ {
+   background: Red;
+   color :#FFF;
+   margin-bottom : 20px;
+   padding : 15px
+ }
+ /*navbar*/
+ .test
+ {
+  height: 200px ;
+  background: #F6F6F6;
+  line-height: 300px;
+
+ }
+ body
+ {
+  padding-top: 80px;
+  background: url("../../images/rate.jpg")no-repeat center center fixed;
+  background-size: cover;
+ }
+
+
+
+/***************start overriding bootstrap*******************/
+ /*active link(home)*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+  color : white;
+  background: #2E86C1;
+ }
+ 
+  .logo{
+ height: 50px;
+ width: 166px;
+ padding-top: 0;
+ margin-top: 0;
+ margin-left: -105px;
+ }
+
+.nav-font{
+  font-family: -apple-system,
+              BlinkMacSystemFont,
+              "Segoe UI","Roboto",
+              "Oxygen","Cantarell",
+              "Open Sans","Helvetica Neue",
+              "Ubuntu",sans-serif;
+
+  
+}
+ .dropdown-menu{
+    background-color: #333;
+    border-top: 3px solid #2E86C1;
+    padding: 6px 20px;
+    width: 50px;
+    
+}
+
+.dropdown-menu li a{
+    color: #FFF;
+    -webkit-transition: padding 0.7s ease;
+    -moz-transition: padding 0.7s ease;
+    -o-transition: padding 0.7s ease;
+    transition: padding 0.7s ease;
+    
+}
+
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus{
+    background-color: #2E86C1;
+    color: #FFF;
+    padding-left: 25px;
+}
+
+.dropdown-menu .divider{
+    background-color:#2E86C1;
+}
+
+.navbar-right .dropdown-menu{
+    left: 0;
+    right: auto;
+}
+
+ .navbar-brand
+ {
+  
+  padding-top: 20px;
+  font-size: 30px;
+ }
+ .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img
+ {
+    max-width:30%;
+ }
+ .carousel-caption
+ {
+    color:black;
+ }
+ .carousel-indicators li
+ {
+    border:3px solid red;
+ }
+ .carousel-indicators .active
+ {
+    border:3px solid yellow;
+
+ }
+ 
+ .navbar-nav > li > a{
+  line-height: 1.5;
+ }
+ /*********end overriding bootstrap**********/
+
+
+
+
+
+/* Start section footer */
+.footer{
+    background: #222;
+    color: #AAA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+     position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.footer h2{
+    color: #0895D1;
+    margin: 30px 0 20px;
+    letter-spacing: 1px;
+}
+
+.footer .three-columns{
+    overflow: hidden;    
+}
+
+.footer .three-columns li{
+    width: 15%;
+    float: left;
+    padding: 5px 0
+}
+
+.footer .social{
+    overflow: hidden;
+    
+}
+
+.footer .social li{
+    float: left;
+    margin-top: 1px;
+    padding-top: 1px;
+    margin-right: 5px;
+    opacity: 0.7;
+}
+
+.footer .social li:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.footer_links{
+ text-decoration: none;
+ color: #FFF;
+}
+
+.footer_links:hover{
+ text-decoration: none;
+ color: #FFF;
+}
+/* End section footer */
+
+.details_div{
+  background: rgba(3,3,3,.4);
+  width: auto;
+  width: 600px;
+  margin: auto;
+  border-radius: 20px;
+
+  -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.details_img{
+  width: 500px;
+  margin: auto;
+}
+
+img{
+  max-width: 500px;
+}
+
+.title{
+  font-weight: bold;
+  color: #FFF;
+}
+
+ul li{
+  display: inline-block;
+}
+
+.post_content{
+  padding: 20px;
+}
+
+h3{
+  font-family: serif;
+}
+
+.contactbut{
+  border: #FFF 1px solid;
+  border-radius: 30px;
+  color: #FFF;
+  width: 148.08px;
+  -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+ }
+
+ .contactbut:hover {
+  background-color: #337ab7;
+  color: #FFF;
+  border: #337ab7 1px solid;
+ }
